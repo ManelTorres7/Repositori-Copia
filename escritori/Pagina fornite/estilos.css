@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+@font-face {font-family: "Burbank Big Regular Bold";
+    src: url("ce366fe567377fc5597ebfa52b38073f.eot"); /* IE9*/
+    src: url("ce366fe567377fc5597ebfa52b38073f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("ce366fe567377fc5597ebfa52b38073f.woff2") format("woff2"), /* chrome、firefox */
+    url("ce366fe567377fc5597ebfa52b38073f.woff") format("woff"), /* chrome、firefox */
+    url("ce366fe567377fc5597ebfa52b38073f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("ce366fe567377fc5597ebfa52b38073f.svg#Burbank Big Regular Bold") format("svg"); /* iOS 4.1- */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.demo{
+    font-family:"Burbank Big Regular Bold" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 300px;
+}
+    
+
+header {
+    width: 100%;
+    height: 52px;
+    background: rgb(42, 42, 42);
+    display: flex;
+    align-items: center;    
+}
+
+    .logo_epic{
+        background-color: #fff;
+        width: 36px;
+        height: 36px;
+        -webkit-mask: url("https://cdn2.unrealengine.com/eg-shield-logo-white-f8185c103d8d.svg");
+        mask: url("https://cdn2.unrealengine.com/eg-shield-logo-white-f8185c103d8d.svg");
+        margin: 0px 8px;
+        
+    }
+    .logo_fortnite {
+        background-image: url("https://cdn2.unrealengine.com/fn-nav-logo-3e6bd67b98b0.svg?resize=1&w=240&quality=high");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 52px;
+        width: 120px;
+        margin: 0px 16px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+        nav a {
+            text-decoration: none;
+            color: #cccccc;
+            font-size: 11px;
+            font-family: sans-serif;
+            padding: 0px 17px 0px 17px;
+            letter-spacing: .5px;
+        }
+
+    .header_right_parts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 24.65%;
+        padding-left: 10px;
+    }
+    .header_right_parts span {
+        color: #cccccc;
+    }
+    .header_right_parts p {
+        letter-spacing: 1px;
+        color: #cccccc;
+        font-size: 11px;
+        font-family: sans-serif;
+
+    }
+    .header_right_parts a {
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        color: black;
+        text-decoration: none;
+        background-color: yellow;
+        height: 52px;
+        font-size: 11px;
+        align-items: center;
+        display: flex;
+        padding: 0px 29px;
+        }
+
+
+
+
+
+
+
+
+
+.banner_portada {
+    height: 678px;
+    overflow: hidden;
+    position: relative;
+}
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .contenido_portada {
+        width: 100%;
+        height: 83.8%;
+        background-color: yellow;
+        display: flex;
+        position:absolute;
+        top: 0;
+    }
+    .contenido_portada .contenedor {
+        background-color: red;
+        width: 100%;
+        
+        align-self: flex-end;
+        height: 236px;
+        /*-webkit-box-pack: en3d;
+        justify-content: flex-end;*/
+    }
+        .contenedor img {
+            height: 150px;
+            object-fit: contain;
+        }
+        .contenedor div {
+            margin: auto;
+            display: flex;
+            height: 80px;
+            width:468px;
+            background-color: blue;
+            
+            
+            
+
+        }
+
+
+    
+ 
+
+/*  section 2   */
+section {
+    height: 500px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+
+
+

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 92.5%;
+}
+section {
+    display: flex;
+}
+
+
+
+.topheader {
+    display: flex;
+    border-bottom: 1px solid #d6d4d4;
+    font-size: 12px;
+    font-family: "Poppins-Regular";
+    font-size: 12px;
+}
+    .topheader .container {
+        justify-content: space-between;
+        padding: 7.5px 0px 7.5px 0px;
+    }
+    .telf {
+        display: flex;
+        font-weight:lighter;
+        color: #232323;
+    }
+        .telf i {
+            color: #7a7a7a;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+           
+        }
+        .telf span {
+            font-family: 'poppins';
+            color: #232323;
+            font-size: 12px;    
+            font-weight: bold;
+        }
+    .currency-lenguaje {
+        display: flex;
+        padding: 0px 40px 0px 40px;
+    }
+        .currency {
+            padding: 0px 0px 0px 0px;
+            color: #7A7A7A;
+            display: flex;
+            align-items: center;
+        }
+            .currency span {
+                color: #333;
+                font-weight: 600;
+            }
+            .currency i {
+                font-size: 16px;
+                padding: -5px;
+                
+            }
+
+
+        .lenguaje {
+            display: flex;
+            padding: 0px 40px 0px 40px;
+        }
+    
+    .acount {
+        display: flex;
+    }
+
+/* Centralheader*/
+
+.centralheader {
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.centralheader .container {
+    justify-content: space-between;
+    
+}
+
+    .logo {
+        display: block;
+
+    }
+        .logo img {
+            margin: 7.5px;
+            display: flex;
+            align-items: center;
+            height: 85px;
+            border: 1px solid #e3e3e3;
+            border-radius: 15px;
+        }
+    .searcher {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+        .searcher input {
+            margin: auto;
+            width: 65%;
+            border-radius: 30px;
+            height: 42.5px;
+            padding: 5px;
+            color: #e3e3e3;
+            border-color: #e3e3e3;
+            border: 1px solid #e3e3e3;/*"provar sense"*/
+        }
+    .carrito {
+        display: flex;
+        align-items: center;
+    }
+
+/*bottomheadre*/
+
+.bottomheader {
+    border-bottom: 1px solid #e3e3e3;
+    /*background-color: rgb(20, 151, 86); || provar || */
+}
+    .bottomheader .container {
+        padding: 8px 0px 8px 0px;
+    }
+    .menu a {
+        color: #575757;
+        text-decoration: none;
+        margin-right: 12.5px;  
+        font-size: 14px;
+        padding: 12px 10px;
+        font-weight: 600;
+        transition: .1s;
+        cursor: default;
+    }
+    .menu a:hover {
+        color:#948e8e;
+
+    }
+
+/*responsive part*/
+.two {
+    padding: 10px 30px 0px 30px;
+    flex-direction: column;
+    display: none;
+}
+    .two p{
+        width: 100%;
+        border-bottom: 1px solid #e3e3e3;
+        padding: 7.5px 0px 7.5px 0px;
+    }

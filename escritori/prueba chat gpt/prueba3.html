@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo</title>
+</head>
+<body>
+  <h1 id="name">Manel Torrescasana</h1>
+
+  <script>
+    // Obtener el elemento con id "name"
+    var nameElement = document.getElementById("name");
+
+    // Crear un array de colores
+    var colors = ["red", "green", "blue"];
+
+    // Establecer el índice de color actual
+    var currentColorIndex = 0;
+
+    // Establecer el intervalo de tiempo para cambiar el color
+    setInterval(function() {
+      // Establecer el color del elemento al siguiente color en el array
+      nameElement.style.color = colors[currentColorIndex];
+
+      // Actualizar el índice de color actual
+      currentColorIndex = (currentColorIndex + 1) % colors.length;
+    }, 3000);
+  </script>
+</body>
+</html>

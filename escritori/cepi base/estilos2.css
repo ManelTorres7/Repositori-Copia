@@ -1,0 +1,102 @@
+
+#content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+
+header {
+    background-color: yellow;
+    height: 125px;
+    width: 1000px;
+
+    
+}
+    #logo {
+        width: 100px;
+        height: 125px;
+        float: left; /*---- Float  posiciona elementos en paralelo ----*/
+    }
+    #titulo {
+        width: 100%;
+        height: 125px;
+        background-image: url(imagenes/fondohead.png);
+        text-align: center;
+    }
+
+nav {
+    width: 1000px;
+    background-color: gold;
+}
+    nav a {
+        display: inline-block;
+        width: 150px;
+        padding: 6px;
+        text-align: center;
+    }
+
+section {
+    width: 750px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    background-image: url(imagenes/fondoseccion.png);
+}
+
+article {
+    width: 720px;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+aside {
+    width: 250px;
+    height: auto; 
+    float: left; /*---- Margin left ----*/
+    background-color: white;
+}
+
+
+footer {
+    width: 1000px;
+    height: 60px;
+    float: left;
+    background-color: black;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 60pt;
+    margin: 0;
+}
+
+h2,h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h4,h5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+dl,dd {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+dt {
+    padding-top: 10px;
+    columns: red;
+}
+
+dd {
+    height: 150px;
+    width: 150px;
+}
+

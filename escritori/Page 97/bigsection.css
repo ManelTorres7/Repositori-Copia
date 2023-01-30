@@ -1,0 +1,81 @@
+
+.bigsection {
+    padding-top: 35px;
+    margin: 1px solid grey;
+}
+
+.bigsection .container {
+    display: flex;
+
+}
+.rigth {
+    width: 25%;
+    height: 3000px;
+    border: 1px solid grey;
+}
+
+.left {
+    width: 75%;
+    height: 3000px;
+    border: 1px solid grey;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #232323;
+}
+.categories p {
+    padding-bottom: 12.5px;
+    border-bottom: 1px solid grey;
+}
+    .categories ul {
+        padding: 0px 10px ;
+        text-decoration: none;
+        list-style: none;
+    }
+        .categories ul li {
+            border-bottom: 1px solid grey;
+            padding: 7.5px 0px 7.5px 0px;
+        }
+        .categories ul li a {
+            text-decoration: none;
+            color: #232323;
+        }
+
+
+
+
+/*right*/
+
+.inicio-slider {
+    background-color: aqua;
+    height: 480px;
+    width: calc(100 - 10px);
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+/*------------Marcas------------*/
+.direction .container {
+    display: flex;
+    margin-top: -35px;
+    padding: 20px 0px 20px 0px;
+    color: #8F8F8F;
+    font-size: 12px;
+}
+    .direction .container a {
+        color: #8F8F8F;
+        text-decoration: none;
+        margin-right: 5px;
+        font-weight:lighter;
+    }
+    .direction .container p{
+        margin-right: 5px;
+        color: #e3e3e3;
+    }

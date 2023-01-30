@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cubo 3D</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      // Obtener el canvas y su contexto
+      // Inicializar las variables para la rotación
+      // Crear un bucle de animación para actualizar la rotación
+      // Dibujar el cubo en el canvas utilizando las transformaciones de rotación
+
+      const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+// Inicializar las variables para la rotación
+let angleX = 0;
+let angleY = 0;
+
+// Establecer el tamaño del canvas
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// Crear una función para dibujar el cubo
+function drawCube() {
+    // Limpiar el canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Guardar el estado actual del contexto
+    ctx.save();
+
+    // Transladar el origen del contexto al centro del canvas
+    ctx.translate(canvas.width / 2, canvas.height / 2);
+
+    // Rotar el contexto según los ángulos de rotación
+    ctx.rotate(angleX);
+    ctx.rotate(angleY);
+
+    // Dibujar las caras del cubo
+    ctx.fillStyle = "red";
+    ctx.fillRect(-75, -75, 150, 150);
+    ctx.fillStyle = "green";
+    ctx.fillRect(-75, -75, 150, 150);
+    ctx.fillStyle = "blue";
+    ctx.fillRect(-75, -75, 150, 150);
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(-75, -75, 150, 150);
+    ctx.fillStyle = "purple";
+    ctx.fillRect(-75, -75, 150, 150);
+    ctx.fillStyle = "orange";
+    ctx.fillRect(-75, -75, 150, 150);
+
+    // Restaurar el estado anterior del contexto
+    ctx.restore();
+}
+
+// Crear un bucle de animación para actualizar la rotación
+function animate() {
+    angleX += 0.01;
+    angleY += 0.01;
+    drawCube();
+    requestAnimationFrame(animate);
+}
+
+// Iniciar la animación
+animate();
+    </script>
+  </body>
+</html>

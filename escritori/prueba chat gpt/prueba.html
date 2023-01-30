@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <style>
+      /* Estilos generales */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Estilos de contenedor */
+      .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      /* Estilos de cabecera */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+      }
+
+      /* Estilos de barra de navegación */
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 1rem;
+      }
+
+      /* Estilos de cuerpo principal */
+      main {
+        flex: 1;
+        padding: 1rem;
+        text-align: center;
+      }
+      
+      /* Estilo de imagen */
+      img{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
+      /* Estilos de pie de página */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Welcome to my website!</h1>
+        <p>This is where you can find information about me and my projects.</p>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Example image">
+      </main>
+      <footer>
+        <p>Copyright © 2022 My Website</p>
+      </footer>
+    </div>
+  </body>
+</html>

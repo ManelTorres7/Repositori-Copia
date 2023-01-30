@@ -1,0 +1,40 @@
+@media only screen and ( max-width: 767px) {
+
+    .acount {
+        display: none;
+    }
+
+    .searcher, .carrito {
+        display: none;
+    }
+
+    .centralheader .container {
+        justify-content: center;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .bottomheader .container {
+        padding: 0px;
+        border-left: 1px solid #e3e3e3;
+    }
+        .bottomheader .container section {
+            width: 25%;
+            height: 40px;
+            border-right: 1px solid #e3e3e3;
+        }
+        .two {
+            display: block;
+        }
+
+/*Bigsection*/
+.rigth {
+    display: none;
+}
+.left {
+    margin: auto;
+}
+
+}
