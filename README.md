@@ -1,0 +1,2 @@
+# Repositori-Copia
+copia seguretat
