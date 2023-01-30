@@ -1,0 +1,45 @@
+
+. FAQS
+. Help
+. Support
+. Facebook, Twitter, Linkedln, etc...
+. Menu (Categories + "nav") completo en todas las paginas 
+. Registrat
+. Pagina likes.
+. Imatges + apartados "banner" del home
+. Anuncios home
+. "Patrocinadors"
+. Footer
+. Ordre productes shop
+. Pàgina marques
+. Pàgina new arrivals
+. Pàgina sobre nosotros
+. Pàgina favoritos
+. Pàgina contacte
+. Funcionalitat pàgina contacte
+. Interface para subir productes con base de datos etc y
+  que se suba automaticamente en la pagina en su categoria info y todo
+. Funcionalitat buscador intern
+. Funcionalitat menu categories, mostrar els productes autoamticamente
+  que sean de la categoria seleccionada
+. Funcionalitat en els apartats marques etc... de mostrar els productes
+  autoamticamente que sean de la categoria seleccionada
+. funcionalitat filtre de le spagines per selecciones productes amb certes caracteristiques
+. Funcionalitat "ordenar per"
+. Funcionalitat pàgina favoritos
+. Funcionalitat pàgina carrito
+. Funcionalitat apartats subscriute (bulletí informatiu) (En el cas que es mantingui aquest apartat)
+. Funcionalitat cerca nom pàgina shop
+. Comprovar models resposius y completar, arreglar o modificar si cal
+. Pàgina pagament
+. Funcionalitat Pagament 
+. Base de dades compres completades
+. Pàgina de compra finalitzada
+. De les coses més importants treballar amb estats de sesió y d'usuari
+. funcionalitat apartat aplica el cupo
+. Sisteme autamatitzat correu electronic info de pedido, rastrear envio, etc...
+. ? Base de dades comportament usuaris dintre la web
+. Aplicar tests de estres per comprovar efectivitat d ela pagina y possibles punts febles
+
+
+. (Pensar en posible automatitzacio de busqueda de productes amb scraping per agilitar una amica el aquest mateix procés)
